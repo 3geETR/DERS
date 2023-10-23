@@ -7,13 +7,13 @@ document.addEventListener('DOMContentLoaded', function() {
         Pazartesi: {
         turkce: ['Türkçe Deneme Kitabı', 'Türkçe Defteri'],
         resim: ['Resim Defteri', 'Boyalar'],
-        matematik: ['Matematik İntro', 'Matematik Atölyem', 'Matematik Ders Kitabı'],
+        matematik: ['Matematik İntro', 'Matematik Atölyem'],
 	ingilizce: ['İngilizce Shall We', 'İngilizce Defteri'],
         sosyal: ['Sosyal Defteri', 'Sosyal Ders Kitabı']
         },
         Salı: {
             temelDiniBilgiler: ['Temel Dini Bilgiler Defteri'],
-            matematik: ['Matematik İntro', 'Matematik Atölyem', 'Matematik Ders Kitabı'],
+            matematik: ['Matematik İntro', 'Matematik Atölyem'],
             bilgisayar: ['Bir şey Yok :D'],
             fen: ['Ben Korkmam Kitabı', 'Fen Ders Kitabı', 'Müsfette'],
             sosyal: ['Sosyal Defteri', 'Sosyal Ders Kitabı']
@@ -26,12 +26,12 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         Perşembe: {
             turkce: ['Türkçe Adım Adım Zirveye', 'Türkçe Defteri', 'Türkçe Ders Kitabı'],
-            matematik: ['Matematik İntro', 'Matematik Atölyem', 'Matematik Ders Kitabı'],
+            matematik: ['Matematik İntro', 'Matematik Atölyem'],
             bilgisayar: ['Bir şey Yok :D'],
             dinKulturuAhlakBilgisi: ['Din Kültürü ve Ahlak Bilgisi Defteri','Din Kültürü ve Ahlak Bilgisi Ders Kitabı']
         },
         Cuma: {
-            matematik: ['Matematik İntro', 'Matematik Atölyem', 'Matematik Ders Kitabı'],
+            matematik: ['Matematik İntro', 'Matematik Atölyem'],
             fen: ['Ben Korkmam Kitabı', 'Fen Ders Kitabı', 'Müsfette'],
             muzik: ['Müzik Ders Kitabı', 'Müzik Defteri'],
             ingilizce: ['İngilizce Ders Kitabı', 'İngilizce Defteri']
