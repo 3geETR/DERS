@@ -6,9 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const dersProgrami = {
         Pazartesi: {
         turkce: ['Türkçe Deneme Kitabı', 'Türkçe Defteri'],
-        temelDiniBilgiler: ['Temel Dini Bilgiler Defteri'],
-        fen: ['Ben Korkmam Kitabı', 'Fen Ders Kitabı', 'Müsfette'],
-	ingilizce: ['İngilizce Shall We', 'İngilizce Defteri']
+        resim: ['Resim Defteri', 'Boyalar'],
+        matematik: ['Matematik İntro', 'Matematik Atölyem', 'Matematik Ders Kitabı'],
+	ingilizce: ['İngilizce Shall We', 'İngilizce Defteri'],
+        sosyal: ['Sosyal Defteri', 'Sosyal Ders Kitabı']
         },
         Salı: {
             temelDiniBilgiler: ['Temel Dini Bilgiler Defteri'],
