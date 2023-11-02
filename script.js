@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         Perşembe: {
             turkce: ['Türkçe Adım Adım Zirveye', 'Türkçe Defteri', 'Türkçe Ders Kitabı'],
-            matematik: ['Matematik İntro', 'Matematik Atölyem', 'Mat Atölye Alınca Yanında Gelen Dınav Gelecek(galiba)'],
+            matematik: ['Matematik İntro', 'Matematik Atölyem'],
             bilgisayar: ['Bir şey Yok :D'],
             dinKulturuAhlakBilgisi: ['Din Kültürü ve Ahlak Bilgisi Defteri','Din Kültürü ve Ahlak Bilgisi Ders Kitabı']
         },
