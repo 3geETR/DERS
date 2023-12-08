@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const dersProgrami = {
         Pazartesi: {
-        turkce: ['Türkçe Deneme Kitabı', 'Türkçe Defteri'],
+        turkce: ['Türkçe Ders Kitabı', 'Türkçe Defteri'],
         resim: ['Resim Defteri', 'Boyalar'],
         matematik: ['Matematik İntro', 'Matematik Atölyem'],
 	ingilizce: ['İngilizce Shall We', 'İngilizce Defteri'],
@@ -19,13 +19,13 @@ document.addEventListener('DOMContentLoaded', function() {
             sosyal: ['Sosyal Defteri', 'Sosyal Ders Kitabı']
         },
         Çarşamba: {
-            turkce: ['Türkçe Adım Adım Zirveye', 'Türkçe Defteri', 'Türkçe Ders Kitabı'],
+            turkce: ['Türkçe Adım Adım Zirveye', 'Türkçe Defteri'],
             beden: ['Sivil Giyinme'],
             temelDiniBilgiler: ['Temel Dini Bilgiler Defteri'],
             fen: ['Ben Korkmam Kitabı', 'Fen Ders Kitabı', 'Müsfette']
         },
         Perşembe: {
-            turkce: ['Türkçe Adım Adım Zirveye', 'Türkçe Defteri', 'Türkçe Ders Kitabı'],
+            turkce: ['Türkçe Adım Adım Zirveye', 'Türkçe Defteri', 'Türkçe Deneme Kitabı'],
             matematik: ['Matematik İntro', 'Matematik Atölyem'],
             bilgisayar: ['Bir şey Yok :D'],
             dinKulturuAhlakBilgisi: ['Din Kültürü ve Ahlak Bilgisi Defteri','Din Kültürü ve Ahlak Bilgisi Ders Kitabı']
@@ -33,11 +33,11 @@ document.addEventListener('DOMContentLoaded', function() {
         Cuma: {
             matematik: ['Matematik İntro', 'Matematik Atölyem'],
             fen: ['Ben Korkmam Kitabı', 'Fen Ders Kitabı', 'Müsfette'],
-            muzik: ['Müzik Ders Kitabı', 'Müzik Defteri'],
+            muzik: ['Müzik Ders Kitabı', 'Müzik Defteri', 'Flüt', 'Flüt Müzik Kitabı'],
             ingilizce: ['İngilizce Ders Kitabı', 'İngilizce Defteri']
         },
 	Cumartesi: {
-            haftasonu: []
+            haftasonu: ['Ne bakıyorsun bu gün tatil.']
         }
     };
 
