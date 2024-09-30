@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const bugunTarihi = new Date(tarih);
     bugunTarihi.setDate(tarih.getDate() + 1);
-    const bugun = gunler[bugunTarihi.getDay()];
-//    const bugun = gunler[tarih.getDay()];
+//    const bugun = gunler[bugunTarihi.getDay()];
+    const bugun = gunler[tarih.getDay()];
 
     const dersProgrami = {
         Pazartesi: {
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     const gunElementi = document.getElementById('gun');
-    gunElementi.textContent = `Yarın ${bugun}`;
+    gunElementi.textContent = `Bugün ${bugun}`;
 
     function dersleriGoster(dersAdi) {
         const dersListesi = document.querySelector(`#${dersAdi} .ders-listesi`);
