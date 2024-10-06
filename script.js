@@ -10,24 +10,24 @@ document.addEventListener('DOMContentLoaded', function() {
     const dersProgrami = {
         Pazartesi: {
             turkce: ['Türkçe Okuma Kitabı'],
-            tasarım: ['Kağıt & Dosya', 'Cetvel'],
-            ingilizce: ['İngilizce Ders Kitabı', 'İngilizce Defteri'],
-            sosyal: ['Sosyal Defteri', 'Sosyal Ders Kitabı']
+            beden: ['Sivil Giyinme'],
+            ingilizce: ['İngilizce Ders Kitabı', 'İngilizce Defteri', 'Shall We Test Book'],
+            matematik: ['Matematik Ders Kitabı', 'Kaynak Kitaplar', 'Matematik Defteri'],
         },
         Salı: {
-            turkce: ['Türkçe Ders Kitabı', 'Türkçe Defteri'],
-            matematik: ['Matematik Ders Kitabı', 'Kaynak Kitaplar', 'Matematik Defteri'],
+            ingilizce: ['İngilizce Ders Kitabı', 'İngilizce Defteri'],
+            turkce: ['Türkçe Ders Kitabı', 'Türkçe Defteri', 'Adım Adım Zirveye'],
             fen: ['Fen Ders Kitabı', 'Müsfette'],
             sosyal: ['Sosyal Defteri', 'Sosyal Ders Kitabı']
         },
         Çarşamba: {
-            turkce: ['Türkçe Ders Kitabı', 'Türkçe Defteri'],
-            beden: ['Sivil Giyinme'],
-            muzik: ['Müzik Ders Kitabı', 'Müzik Defteri'],
-            fen: ['Fen Ders Kitabı', 'Müsfette']
+            turkce: ['Türkçe Ders Kitabı', 'Türkçe Defteri', 'Adım Adım Zirveye'],
+            resim: ['Resim Defteri', 'Boya Kalemleri'],
+            tasarım: ['Kağıt & Dosya', 'Cetvel'],
+            sosyal: ['Sosyal Defteri', 'Sosyal Ders Kitabı']
         },
         Perşembe: {
-            ingilizce: ['İngilizce Ders Kitabı', 'İngilizce Defteri'],
+            fen: ['Fen Ders Kitabı', 'Müsfette'],
             matematik: ['Matematik Ders Kitabı', 'Kaynak Kitaplar', 'Matematik Defteri'],
             s_matematik: ['Matematik Ders Kitabı', 'Kaynak Kitaplar', 'Matematik Defteri'],
             dinKulturuAhlakBilgisi: ['Din Kültürü ve Ahlak Bilgisi Defteri','Din Kültürü ve Ahlak Bilgisi Ders Kitabı']
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         Cuma: {
             temelDiniBilgiler: ['Temel Dini Bilgiler Defteri'],
             matematik: ['Matematik Ders Kitabı', 'Kaynak Kitaplar', 'Matematik Defteri'],
-            resim: ['Resim Defteri', 'Boya Kalemleri'],
+            muzik: ['Müzik Ders Kitabı', 'Müzik Defteri'],
             beden: ['Sivil Giyinme']
         },
         Cumartesi: {
