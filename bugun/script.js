@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
             matematik: ['Matematik Ders Kitabı', 'Kaynak Kitaplar', 'Matematik Defteri'],
         },
         Salı: {
-            ingilizce: ['İngilizce Ders Kitabı', 'İngilizce Defteri'],
+            ingilizce: ['İngilizce Ders Kitabı', 'İngilizce Defteri', 'Shall We Test Book'],
             turkce: ['Türkçe Ders Kitabı', 'Türkçe Defteri', 'Adım Adım Zirveye'],
             fen: ['Fen Ders Kitabı', 'Müsfette'],
             sosyal: ['Sosyal Defteri', 'Sosyal Ders Kitabı']
